@@ -48,18 +48,21 @@
             line-height: 1.6;
             margin-bottom: 30px;
         }
-        .btn {
-            display: inline-block;
-            background-color: #c62828;
+        .btn-wa {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #25D366;
             color: white;
             padding: 12px 30px;
             text-decoration: none;
             border-radius: 6px;
             font-weight: 600;
             transition: background-color 0.3s;
+            width: 80%;
         }
-        .btn:hover {
-            background-color: #b71c1c;
+        .btn-wa:hover {
+            background-color: #1ebc57;
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
@@ -73,8 +76,11 @@
             <span class="cross">✖</span>
         </div>
         <h1>Payment Failed</h1>
-        <p>We couldn't process your payment. Please check your card details or try a different payment method.</p>
-        <a href="https://your-app-url.com" class="btn">Try Again</a>
+        <p>We couldn't process your payment. Please contact our support team to resolve this issue immediately.</p>
+        
+        <a href="https://wa.me/96597742603" class="btn-wa">
+            Contact Support via WhatsApp
+        </a>
     </div>
 </body>
 </html>
