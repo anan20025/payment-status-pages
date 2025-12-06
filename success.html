@@ -49,13 +49,17 @@
             line-height: 1.6;
             margin-bottom: 25px;
         }
-        /* FIXED: Instagram Button */
+        strong {
+            color: #333;
+            font-weight: 700;
+        }
+        /* Instagram Button */
         .btn-insta {
             display: inline-flex;
             align-items: center;
             justify-content: center;
             background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-            color: white !important; /* Forces text to be white */
+            color: white !important; /* Force white text */
             padding: 12px 30px;
             text-decoration: none;
             border-radius: 50px;
@@ -76,7 +80,7 @@
             height: 20px;
             margin-right: 10px;
             fill: white;
-            display: block; /* Ensures icon is visible */
+            display: block;
         }
         /* WhatsApp Secondary Link */
         .wa-link {
@@ -102,7 +106,8 @@
             <span class="checkmark">✔</span>
         </div>
         <h1>Payment Successful</h1>
-        <p>Thank you! Your transaction has been completed. Follow us on Instagram for updates.</p>
+        
+        <p>Thank you! Your transaction is complete. Please <strong>take a screenshot</strong> of this receipt and share it with us.</p>
         
         <a href="https://www.instagram.com/anantarayachts/" class="btn-insta" target="_blank">
             <svg class="insta-icon" viewBox="0 0 24 24">
